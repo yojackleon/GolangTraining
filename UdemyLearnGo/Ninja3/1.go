@@ -3,5 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Learning Git")
+	for i := 0; i <= 10000; i++ {
+		fmt.Println("i=", i)
+	}
 }
